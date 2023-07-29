@@ -219,16 +219,20 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (max-width: 1024px) {
   .typewriter-about {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     color: gray;
   }
 
+  .navbar .nav-link {
+    text-align: center;
+  }
+
   .techstack-icons {
-    font-size: 45px;
+    font-size: 30px;
   }
 }
 
