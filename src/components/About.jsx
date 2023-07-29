@@ -52,6 +52,7 @@ function About() {
                   </a>
                 </div>
               </div>
+              
             </div>
 
             <div className="col-6">

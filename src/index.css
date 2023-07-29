@@ -106,17 +106,30 @@
   align-items: center;
 }
 
-@media (max-width: 600px) {
+
+
+
+@media (max-width: 720px) {
   .hero .details {
     width: 90%;
     color: #e1d9d2;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
 
+  .hero .details .Typewriter {
+    font-size: 20px;
+  }
+  .hero .details .title {
+    font-size: 30px;
+  }
+
+  .hero .details .para {
+    font-size: 20px;
+  }
   .hero .hero-icons {
     display: flex;
     flex-direction: row;
@@ -133,7 +146,7 @@
 
   .cta {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -170,7 +183,56 @@
   color: gray;
 }
 
-@media (max-width: 600px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#CV a {
+  border: #e1d9d2;
+  color: #e1d9d2;
+  text-decoration: none;
+}
+
+.techstack-icons {
+  font-size: 60px;
+  margin: 10px;
+}
+
+
+@media (min-width: 1200px) {
+  .typewriter-about {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: gray;
+  }
+
+  .techstack-icons {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 720px) {
   .typewriter-about {
     font-family: Georgia, "Times New Roman", Times, serif;
     font-weight: 500;
@@ -185,31 +247,25 @@
   }
 }
 
-#CV a {
-  border: #e1d9d2;
-  color: #e1d9d2;
-  text-decoration: none;
-}
-
-.techstack-icons {
-  font-size: 60px;
-  margin: 10px;
-}
-
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .typewriter-about {
-    font-size: 19px;
+    font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   }
 
   .techstack2 {
     position: absolute;
-    top: 160%;
+    top: 155%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
 
   .techstack-icons {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  #CV {
+    position: absolute;
+    right: 45%;
   }
 }
