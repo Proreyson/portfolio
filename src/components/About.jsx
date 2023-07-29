@@ -14,7 +14,7 @@ function About() {
   const [text, setText] = useState("");
   const fullText =
     "Hi I'm Reyson Carpio. I'm a junior web developer from Philippines and I live in San Pablo Sto. Tomas, Batangas. I'm 28 years old. I really enjoy what i do right now, in my opinion, creating a programs is not just a job, but also an art that has aesthetic value.";
-  const delay = 50;
+  const delay = 30;
 
   useEffect(() => {
     let currentText = "";
@@ -57,11 +57,11 @@ function About() {
             <div className="col-6">
               <div className="typewriter-about">{text}</div>
 
-              <div className="techstack2 row container pt-5">
+              <div className="techstack2 row container pt-5 text-center">
                 <h5 className="text-center techstack">Technology Stack</h5>
 
 
-                <div className="techstack-icons">
+                <div className="techstack-icons text-center">
                   <FontAwesomeIcon className="techstack-icons" icon={faHtml5} />
                   <FontAwesomeIcon className="techstack-icons" icon={faCss3} />
                   <FontAwesomeIcon className="techstack-icons" icon={faJs} />

@@ -39,14 +39,14 @@ function Hero() {
 
           <div className="cta">
             <div className="discordmeeting">
-              <div className="m-5 badge">
-                <a href="https://discord.com/channels/676715102090559499/992690861026590790" className=" border rounded p-2 border-opacity-10">
+              <div className="m-4 badge">
+                <a href="https://discord.com/channels/676715102090559499/992690861026590790" className=" border rounded p-2 ">
                   <FontAwesomeIcon icon={faDiscord} /> Join my{" "}
                   <b>Discord Community!</b>
                 </a>
               </div>
-              <div className="m-5 badge">
-                <a href="#" className=" border rounded p-2 border-opacity-10">
+              <div className="m-4 badge">
+                <a href="#" className=" border rounded p-2 ">
                   Book a Meeting!
                 </a>
               </div>
